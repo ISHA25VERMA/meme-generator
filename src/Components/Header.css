@@ -1,0 +1,38 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+nav{
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    /* line-height: 24px; */
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+
+}
+
+img{
+    width: 80px;
+}
+
+.link{
+    font-size: 25px;
+}
